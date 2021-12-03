@@ -32,11 +32,6 @@ export const Register = () => {
                 <option value="user"> Usuario </option>
             </select>
             <button onClick="" >Registrar</button>
-
-            <p>{usuario.nombre}</p>
-            <p>{usuario.email}</p>
-            <p>{usuario.password}</p>
-            <p>{usuario.rol}</p>
         </div>
     )
 }

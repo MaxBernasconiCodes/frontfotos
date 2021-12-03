@@ -2,7 +2,24 @@ input, select{
     margin: 6px;
     padding: 4px;
     border: solid 2px rgb(124, 175, 203);
-    border-radius: 15px;
+    border-radius: 10px;
+    transition: all;
+    transition-duration: 100ms;
+}
+input:focus{
+    border-radius: 3px;
+}
+select:focus{
+    transition: all;
+    transition-duration: 100ms;
+    border-radius: 3px 3px 0px 0px;
+}
+select:hover{
+    border-radius: 10px 10px 0px 0px;
+}
+
+option{
+    background-color: rgba(118, 196, 254,0.2);
 }
 
 button{
